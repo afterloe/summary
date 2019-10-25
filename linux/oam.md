@@ -33,10 +33,24 @@ eg : `sudo lsof -i:3389`
 `ssh-copy-id -i ~/.ssh/id_rsa.pub afterloe@namo` 复制公钥  
 `keytool -genkeypair -alias mytest -keyalg RSA -keypass mypass -keystore mytest.jks -storepass mypass` 生成JKS java 秘钥文件  
 
-##  用户
+## 用户
 `usermod -a -G groupA username` 将用户追加进某个组[添加完之后当前窗口需要重新登录刷新session]  
 `useradd -s /bin/bash -d /home/afterloe -m afterloe` 创建名为afterloe的用户  
 `passwd afterloe` 修改afterloe的密码  
+
+## 给用户添加sudo权限
+```
+cd /etc
+su
+chmod u+w ./sudoers
+vim ./sudoers
+
+## Allow root to run any commands anywhere
+username ALL=(ALL) ALL
+
+chmod u-w ./sudoers
+exit
+```
 
 ## 压缩&解压
 ### tar.xz
