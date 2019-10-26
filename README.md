@@ -1,11 +1,10 @@
-# summary
+# 备忘录 
 一些日常用到内容及注意事项
-# 一些内容
 
 * [Introduction](README.md)
 * [编程语言]
     * [javascript 中的设计模式]
-* [Linux]
+* [Linux](./linux)
     * [Git常用命令](./linux/git_guide.md)  
     * [Ubuntu日常操作](./linux/ubuntu_command.md)
     * [Linux运维命令](./linux/oam.md)
@@ -14,16 +13,21 @@
     * [vim常用命令](./linux/vim_command.md)
     * [Centos7 网络操作](./linux/centos_network.md)
     * [ansible 探坑指南](./linux/ansible_command.md)
-* [问题报告]
+* [问题报告](./presentation)
     * [关于Ubuntu启动失败的问题报告](./presentation/ubuntu_start.md)
-* [常用软件]
+* [常用软件](./software)
     * [redis操作](./software/redis.md)
     * [Centos7下nginx操作](./software/nginx.md)
     * [java、node的安装](./software/install_node.md)
     * [Centos7 mysql安装](./software/install_mysql.md)
     * [Centos7 ansible安装](./software/install_ansible.md)
     * [Keepalived 安装与配置](./software/install_keepalived.md)
-* [Docker]
+	* [opencv](./software/opencv)
+		* [Linux安装opencv](./software/opencv/install.md)
+		* [第一个opencv demo](./software/opencv/demo.md)
+* [树莓派](./raspberry)
+	* [wifi设置与连接隐藏wifi](./raspberry/wifi_setting.md)
+* [Docker](./docker)
     * [Docker命令1](./docker/command1.md)
     * [Docker命令2](./docker/command2.md)
     * [Swarm](./docker/swarm.md)
