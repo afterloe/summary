@@ -53,7 +53,6 @@ chmod +x build.sh
 ./build.sh
 ```
 > 会出现一些error或 waring，不必管他; 若配置失败，检查内存情况，并重新执行脚本。
-```
 
 ## 编译
 ```
